@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Quicksand;
+    padding: 0;
+  }
+  body{
+  width: 500px;
+  margin: 0 auto;
+  max-height: 550px;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .header{
+    padding: 20px;
+    background-color: #333;
+    color: #f1356d;
+    text-align: center;
+  }
+
+  .mycontent {
+  background: #eee;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 0.5rem;
+  }
+
+  .myadd{
+    background-color: #f1356d;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px 5px;
+    font-weight: bolder;
+    border-radius: 0.2rem;
+    border: none;
+  }
+  
+  .mycontents{
+    cursor: pointer;
+    width: 90%;
+    height: 2rem;
+    background-color: #c9c3c3;
+    font-size: 15px;
+    padding: 10px 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border: none;
+    color: #eee;
+  }
+
+.myfooter{
+  background-color: #333;
+  padding: 10px;
+  
+}
+.myfooter input{
+  width: 65%;
+  padding: 8px;
+  font-size: 17px;
+}
+
+.myfooter button{
+  padding: 8px;
+  width: 27%;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: #f1356d 4px solid;
+}
+
+img{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 0.4rem;
+}
+
+
+
+
+
